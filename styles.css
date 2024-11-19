@@ -17,8 +17,10 @@ body {
 
 .logo img {
     width: 100px;
-    height: auto;
+    height: 100px;
+    border-radius: 50%; /* Circular mask */
     margin-bottom: 20px;
+    border: 2px solid #ddd;
 }
 
 .account-name h1 {
@@ -27,19 +29,26 @@ body {
     margin-bottom: 20px;
 }
 
-.image-container img {
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.post img {
     width: 100%;
-    max-width: 400px;
+    max-width: 180px;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: transform 0.2s;
 }
 
-.image-container img:hover {
+.post img:hover {
     transform: scale(1.05);
 }
 
-.image-container a {
+.post a {
     text-decoration: none;
+    color: inherit;
 }
