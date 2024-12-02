@@ -16,8 +16,8 @@ body {
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover; /* Ensures cropping, not squeezing */
     border-radius: 50%; /* Circular mask */
     margin-bottom: 20px;
@@ -43,8 +43,8 @@ body {
 }
 
 .post img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 300px;
     object-fit: cover; /* Ensures images are cropped, not squeezed */
     border: 1px solid #ddd;
     border-radius: 8px;
