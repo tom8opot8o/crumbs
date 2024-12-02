@@ -33,7 +33,7 @@ body {
 .posts-container {
     display: flex; /* Make all posts in one row */
     justify-content: center;
-    gap: 5px; /* Space between images */
+    gap: 2px; /* Space between images */
     overflow-x: auto; /* Scrollable row for smaller screens */
     padding: 10px;
 }
